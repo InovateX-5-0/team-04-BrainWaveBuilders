@@ -1,26 +1,41 @@
-# Python cache
+# Python
 __pycache__/
 *.pyc
-
-# Virtual environments
-venv/
-env/
-.venv/
-
-# Environment variables (secrets)
+*.pyo
+*.pyd
 .env
+
+# Databases
+*.db
 
 # Logs
 *.log
 
-# ML model files
-*.pkl
-*.joblib
+# Dataset
+DataCoSupplyChainDataset.csv
 
-# IDE folders
-.vscode/
-.idea/
+# Node
+node_modules/
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+backend-java/target/
+*.jar
+*.class
+backend-java/target/
+*.jar
+*.class
+node_modules/
+__pycache__/
+.env
+
+
+node_modules/
+__pycache__/
+.env
+backend-java/target/
+*.jar
+*.class
+*.log
+*.db
